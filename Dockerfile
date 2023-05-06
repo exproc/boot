@@ -7,4 +7,4 @@ COPY src/conf/ /etc/nginx
 COPY src/conf.d/ /etc/nginx/conf.d/ 
 RUN apk add -U tzdata bash
 ENV TZ=America/New_York
-RUN cp src/usr/share/zoneinfo/America/New_York /etc/localtime
+RUN cp /usr/share/zoneinfo/America/New_York /etc/localtime
