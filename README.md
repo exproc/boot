@@ -1,1 +1,1 @@
-Nginx For NetBooting os
+Nginx For NetBooting os kickstart
